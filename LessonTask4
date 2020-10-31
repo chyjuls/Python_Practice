@@ -1,0 +1,29 @@
+
+# print the yearly value of a motorbike which loses 10%  of its value each year.
+
+bike_price = x = "£2000"
+lost_value = y = "10%"
+
+# The yearly values were rounded up to the nearest pound
+print("Yearly depreciation rounded up to the nearest pound.")
+print()
+
+Year_1 = int(2000 - (2000 / 10))
+Year_2 = int(Year_1 - (1800 / 10))
+Year_3 = int(Year_2 - (1620 / 10))
+Year_4 = int(Year_3 - (1458 // 10))
+Year_5 = int(Year_4 - (1312 // 10))
+Year_6 = int(Year_5 - (1180 // 10))
+Year_7 = int(Year_6 - (1062 // 10))
+print("£{:,}".format(Year_1))
+
+print("£{:,}".format(Year_2))
+print("£{:,}".format(Year_3))
+print("£{:,}".format(Year_4))
+print("£{:,}".format(Year_5))
+print("£{:,}".format(Year_6))
+
+if Year_7 <= 1000:
+    print("STOP")
+else:
+    print("INVALID ERROR RETURNED")

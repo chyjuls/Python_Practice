@@ -1,0 +1,13 @@
+# create user menu
+
+menu = input("Give me your menu, please")
+starter = "Prawn cocktail\n"
+
+main = "Salmon and baby potatoes\n"
+
+dessert = "Cheese cake\n"
+
+drink = "red wine."
+print("Your favourite meal is:" + starter + main + dessert + "with a glass of " + drink)
+
+# end of code

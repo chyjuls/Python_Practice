@@ -1,0 +1,19 @@
+# write a program which will ask a user for their favourite number
+
+# Steps
+# ask user to input number
+# use if statements
+
+
+user_1 = favourite_number = int(input("What is your favourite number?"))
+
+# using if statements favourite number returned as a joke in two instances
+print()
+
+if favourite_number <= 100:
+
+    print("I do not like people who work with graph paper, they are always plotting something.")
+else:
+    print("Any number you give will return a joke!")
+
+# End of code

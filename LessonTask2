@@ -1,0 +1,11 @@
+# ask for two numbers then,
+
+data = input("Give me two numbers:")
+num1 = 5
+num2 = 4
+print(int(num1))
+print()
+print(int(num2))
+
+# create menu with x, y, z
+
